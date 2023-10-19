@@ -22,6 +22,29 @@
 //     i++
 // }
 
+// write a do...while that prints your surnanme 100 times
+
+// var i =0;
+
+// do {
+//     console.log("guler..")
+//     i++
+// }
+// while (i <20)
+
+// //write an infinite for loop
+
+// for (;;){
+//     console.log('hello')
+// }
+
+// // write an infinite loop  using a while loop
+// while (true) {
+//     console.log("hello 2")
+// }
+
+
+
 // write code an array of 5 element of type string (for example 10 students)
 
 // let students = ["john","layla","ozlem","gulsum","ahmet","kubra","furkan","havva","hasan"]
@@ -58,6 +81,20 @@
 
 
 // convert the traditional function to an arrow function
-let multiply = (num1, num2) => num1 * num2;
+//let multiply = (num1, num2) => num1 * num2;
 
-console.log(multiply(5,3));
+//console.log(multiply(5,3));
+
+/* use if/else/if chained to check the day of the week 
+  and print "it is work time"for monday,tuesday
+  "it is school time" for friday "its is off day"
+  */
+
+  let day = " Monday"
+  if (day == "Monday") {
+    consol.log("it is work time")
+
+  } else if (day == "Tuesday"){
+    consol.log("it is school time")    
+  }
+
